@@ -1,0 +1,44 @@
+.main {
+    background: gray;
+}
+
+.header {
+    background: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+}
+
+.ulElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    margin-right: 20px;
+}
+
+.div-container {
+   display: flex;
+    flex-direction: row;
+}
+
+.Img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    width: 300px;
+}
+
+.ulListInfo {
+    list-style: none;
+    display: flex;
+    /*flex-direction: column;*/
+}
